@@ -63,6 +63,12 @@ background-size: cover;
     color: #424040;
     font-size: 23px;
 }
+.fa-search
+{
+    position: absolute;
+    margin-left: -32px;
+    margin-top: 10px;
+}
 .navbar li
 {
     list-style: none;
@@ -73,6 +79,12 @@ background-size: cover;
     color: white;
      font-weight: 700;
 
+}
+.navbar a>img 
+{
+    font-size: 20px;
+    width: 200px;
+    z-index: 2;
 }
 a.nav-link
 {
